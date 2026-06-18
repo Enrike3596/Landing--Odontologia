@@ -2,6 +2,11 @@
 
 Landing page profesional para una clínica odontológica, diseñada para presentar los servicios, el equipo médico y facilitar el contacto con pacientes potenciales.
 
+## 🌐 Sitio en vivo
+
+El portafolio se encuentra publicado en **Azure Static Web Apps**:
+
+👉 [https://lemon-pond-0de0b710f.7.azurestaticapps.net](https://white-field-0a1d0010f.7.azurestaticapps.net)
 ## Problemática
 
 Las clínicas dentales necesitan una presencia digital que transmita confianza y profesionalismo. Una landing page bien diseñada permite:
