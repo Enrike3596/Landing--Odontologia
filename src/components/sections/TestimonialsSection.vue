@@ -90,3 +90,82 @@ const testimonials = [
   }
 ]
 </script>
+
+<style scoped>
+.testimonial-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-avatar {
+  flex-shrink: 0;
+}
+
+.testimonial-avatar img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00adb5;
+}
+
+.testimonial-info h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 0.2rem;
+}
+
+.testimonial-info .treatment {
+  font-size: 0.8rem;
+  color: #00adb5;
+  font-weight: 600;
+}
+
+.testimonial-rating {
+  margin-bottom: 0.75rem;
+}
+
+.testimonial-rating i {
+  color: #f5b50a;
+  font-size: 0.95rem;
+  margin-right: 2px;
+}
+
+.testimonial-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555;
+  flex: 1;
+}
+
+.testimonial-quote {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.testimonial-quote i {
+  font-size: 1.8rem;
+  color: #00adb5;
+  opacity: 0.2;
+}
+</style>
